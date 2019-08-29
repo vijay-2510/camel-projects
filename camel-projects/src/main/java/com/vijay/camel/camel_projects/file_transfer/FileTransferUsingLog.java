@@ -1,13 +1,12 @@
-package com.vijay.camel.camel_projects;
+package com.vijay.camel.camel_projects.file_transfer;
 
 import org.apache.camel.CamelContext;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.DefaultCamelContext;
 
-public class FileTransfer {
+public class FileTransferUsingLog {
 
 	public static void main(String[] args) {
-
 		CamelContext context = new DefaultCamelContext();
 
 		try {
@@ -15,7 +14,9 @@ public class FileTransfer {
 
 				@Override
 				public void configure() throws Exception {
-					from("file:doc/input?noop=true").to("file:doc/output");
+					from("file:doc/input?noop=true")
+					.to("log:File-Tranfer-Using-Log?level=INFO&showBody=true")
+					.to("file:doc/output");
 
 				}
 			});

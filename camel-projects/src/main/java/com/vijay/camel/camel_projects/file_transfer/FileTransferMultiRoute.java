@@ -1,4 +1,4 @@
-package com.vijay.camel.camel_projects;
+package com.vijay.camel.camel_projects.file_transfer;
 
 import org.apache.camel.CamelContext;
 import org.apache.camel.builder.RouteBuilder;
