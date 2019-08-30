@@ -76,3 +76,20 @@
 [main] INFO  org.apache.camel.impl.DefaultShutdownStrategy  - Graceful shutdown of 2 routes completed in 0 seconds
 [main] INFO  org.apache.camel.impl.DefaultCamelContext  - Apache Camel 2.24.1 (CamelContext: camel-1) uptime 5.705 seconds
 [main] INFO  org.apache.camel.impl.DefaultCamelContext  - Apache Camel 2.24.1 (CamelContext: camel-1) is shutdown in 0.056 seconds
+[main] INFO  com.vijay.camel.file_transfer.FileTranferRouteTest  - ********************************************************************************
+[main] INFO  com.vijay.camel.file_transfer.FileTranferRouteTest  - Testing: checkOutputDirectory(com.vijay.camel.file_transfer.FileTranferRouteTest)
+[main] INFO  com.vijay.camel.file_transfer.FileTranferRouteTest  - ********************************************************************************
+[main] INFO  org.apache.camel.impl.DefaultCamelContext  - Apache Camel 2.16.5 (CamelContext: camel-1) is starting
+[main] INFO  org.apache.camel.management.DefaultManagementStrategy  - JMX is disabled
+[main] INFO  org.apache.camel.impl.converter.DefaultTypeConverter  - Loaded 182 type converters
+[main] INFO  org.apache.camel.impl.DefaultCamelContext  - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+[main] INFO  org.apache.camel.impl.DefaultCamelContext  - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[main] INFO  org.apache.camel.impl.DefaultCamelContext  - Total 0 routes, of which 0 is started.
+[main] INFO  org.apache.camel.impl.DefaultCamelContext  - Apache Camel 2.16.5 (CamelContext: camel-1) started in 0.190 seconds
+[main] INFO  com.vijay.camel.file_transfer.FileTranferRouteTest  - ********************************************************************************
+[main] INFO  com.vijay.camel.file_transfer.FileTranferRouteTest  - Testing done: checkOutputDirectory(com.vijay.camel.file_transfer.FileTranferRouteTest)
+[main] INFO  com.vijay.camel.file_transfer.FileTranferRouteTest  - Took: 5.000 seconds (5000 millis)
+[main] INFO  com.vijay.camel.file_transfer.FileTranferRouteTest  - ********************************************************************************
+[main] INFO  org.apache.camel.impl.DefaultCamelContext  - Apache Camel 2.16.5 (CamelContext: camel-1) is shutting down
+[main] INFO  org.apache.camel.impl.DefaultCamelContext  - Apache Camel 2.16.5 (CamelContext: camel-1) uptime 5.209 seconds
+[main] INFO  org.apache.camel.impl.DefaultCamelContext  - Apache Camel 2.16.5 (CamelContext: camel-1) is shutdown in 0.008 seconds
